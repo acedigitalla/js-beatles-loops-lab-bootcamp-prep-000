@@ -16,7 +16,7 @@ const facts = [
 function johnLennonFacts(facts) {
 debugger
   var i = 0;
-  while (i < array.length) {
+  while (i < facts.length) {
     facts[i] = `${facts[i]}` + "!!!";
     i++;
  }
