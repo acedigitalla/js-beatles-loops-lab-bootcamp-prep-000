@@ -7,10 +7,8 @@ return empty;
 }
 
 function johnLennonFacts(array) {
-  var facts = 4;
- while (facts > 0) {
-   array[facts]= (array[facts] + "!!!");
-   --facts;
+ while (let i = 0; i < 4; i++) {
+   array[i] = (array[i] + "!!!");
  }
   return array;
 }
