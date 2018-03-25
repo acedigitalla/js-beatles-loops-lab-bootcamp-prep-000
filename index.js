@@ -15,7 +15,7 @@ const facts = [
 
 function johnLennonFacts() {
   var i = 0;
-  while (i < 3) {
+  while (i < 4) {
     facts[i] = `${facts[i]}` + `!!!`
     i++
  }
