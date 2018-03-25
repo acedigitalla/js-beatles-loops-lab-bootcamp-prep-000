@@ -8,7 +8,7 @@ return empty;
 
 function johnLennonFacts(array) {
   var i = 0;
- while (i = 0; i < 4; i++) {
+ while (i < 4; i++) {
    array[i] = (array[i] + "!!!");
  }
   return array;
